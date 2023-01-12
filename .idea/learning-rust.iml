@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/collections/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/enums/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/error_handling/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/generictypes_traits_lifetimes/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/modules/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/rectangles/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/hello_world/target" />
@@ -17,6 +18,7 @@
       <excludeFolder url="file://$MODULE_DIR$/modules/target" />
       <excludeFolder url="file://$MODULE_DIR$/collections/target" />
       <excludeFolder url="file://$MODULE_DIR$/error_handling/target" />
+      <excludeFolder url="file://$MODULE_DIR$/generictypes_traits_lifetimes/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
