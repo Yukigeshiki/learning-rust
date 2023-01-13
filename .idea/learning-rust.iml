@@ -8,9 +8,10 @@
       <sourceFolder url="file://$MODULE_DIR$/collections/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/enums/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/error_handling/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/generictypes_traits_lifetimes/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/generic_types/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/modules/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/rectangles/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/traits/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/hello_world/target" />
       <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/rectangles/target" />
@@ -18,7 +19,8 @@
       <excludeFolder url="file://$MODULE_DIR$/modules/target" />
       <excludeFolder url="file://$MODULE_DIR$/collections/target" />
       <excludeFolder url="file://$MODULE_DIR$/error_handling/target" />
-      <excludeFolder url="file://$MODULE_DIR$/generictypes_traits_lifetimes/target" />
+      <excludeFolder url="file://$MODULE_DIR$/generic_types/target" />
+      <excludeFolder url="file://$MODULE_DIR$/traits/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
