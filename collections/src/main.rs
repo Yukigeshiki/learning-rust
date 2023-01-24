@@ -17,6 +17,8 @@ fn main() {
     v.push(7);
     v.push(8);
 
+    let v2: Vec<i32> = v.iter().map(|x| x*2).collect();
+    println!("The third element is {:?}", v2);
     let third: &i32 = &v[2];
     println!("The third element is {third}");
 

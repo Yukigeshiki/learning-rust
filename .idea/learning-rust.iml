@@ -15,6 +15,7 @@
       <sourceFolder url="file://$MODULE_DIR$/rectangles/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/state_machine/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/traits/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ipfs/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/hello_world/target" />
       <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/rectangles/target" />
@@ -27,6 +28,7 @@
       <excludeFolder url="file://$MODULE_DIR$/lifetimes/target" />
       <excludeFolder url="file://$MODULE_DIR$/algorithms/target" />
       <excludeFolder url="file://$MODULE_DIR$/state_machine/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ipfs/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
