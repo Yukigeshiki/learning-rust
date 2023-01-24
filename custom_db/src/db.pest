@@ -1,0 +1,34 @@
+WHITESPACE = _{ " " | "\n" }
+
+identifier = @{ 'a'..'z' ~ ASCII_ALPHANUMERIC* }
+
+tyident = @{ 'A'..'Z' ~ ASCII_ALPHANUMERIC* }
+
+unit = { "()" }
+
+tytuple = { "(" ~ ty ~ ("," ~ ty)+ ~ ","? ~ ")" }
+
+tyrecord = { "{" ~ identifier ~ ":" ~ ty ~ ("," ~ identifier ~ ":" ~ ty)* ~ ","? ~ "}" }
+
+ty = { unit | tytuple | tyrecord | tyident }
+
+int = @{
+    "-"?
+    ~ ("0" | ASCII_NONZERO_DIGIT ~ ASCII_DIGIT*)
+}
+
+bool = { "true" | "false" }
+
+tuple = { "(" ~ expr ~ ("," ~ expr)+ ~ ","? ~ ")" }
+
+record = { "{" ~ identifier ~ "=" ~ expr ~ ("," ~ identifier ~ "=" ~ expr)* ~ ","? ~ "}" }
+
+expr = { unit | tuple | record | int | bool }
+
+insert = { "insert" ~ expr ~ "into" ~ identifier }
+
+select = { "select" ~ "from" ~ identifier }
+
+create = { "create" ~ "table" ~ identifier ~ ty }
+
+statement = _{ SOI ~ (create | insert | select) ~ EOI }
