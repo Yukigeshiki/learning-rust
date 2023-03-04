@@ -16,6 +16,11 @@
       <sourceFolder url="file://$MODULE_DIR$/state_machine/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/traits/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ipfs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/custom_db/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hello_macro/hello_macro_derive/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hello_macro/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/macro_test/macro_test_derive/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/macro_test/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/hello_world/target" />
       <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/rectangles/target" />
@@ -29,6 +34,11 @@
       <excludeFolder url="file://$MODULE_DIR$/algorithms/target" />
       <excludeFolder url="file://$MODULE_DIR$/state_machine/target" />
       <excludeFolder url="file://$MODULE_DIR$/ipfs/target" />
+      <excludeFolder url="file://$MODULE_DIR$/custom_db/target" />
+      <excludeFolder url="file://$MODULE_DIR$/macro_test/target" />
+      <excludeFolder url="file://$MODULE_DIR$/macro_test/macro_test_derive/target" />
+      <excludeFolder url="file://$MODULE_DIR$/hello_macro/target" />
+      <excludeFolder url="file://$MODULE_DIR$/hello_macro/hello_macro_derive/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -1,4 +1,4 @@
-use std::collections::HashMap;
+use std::collections::{HashMap, HashSet};
 
 #[derive(Debug)]
 enum SpreadsheetCell {
@@ -14,10 +14,20 @@ fn main() {
 
     v.push(5);
     v.push(6);
+    v.push(6);
+    v.push(6);
     v.push(7);
     v.push(8);
+    v.push(8);
+    v.push(8);
+    v.push(8);
 
-    let v2: Vec<i32> = v.iter().map(|x| x*2).collect();
+    v.sort_by(|x, y| x.cmp(y));
+
+    let set = v.clone().into_iter().collect::<HashSet<_>>().into_iter().collect::<Vec<_>>(); // dedup vec
+    println!("{:?}", set);
+
+    let v2: Vec<i32> = v.iter().map(|x| x * 2).collect();
     println!("The third element is {:?}", v2);
     let third: &i32 = &v[2];
     println!("The third element is {third}");
@@ -69,6 +79,8 @@ fn main() {
     let s3 = String::from("toe");
     let s = format!("{s1}-{s2}-{s3}");
     println!("{s}");
+
+    let _val = 'I'.encode_utf8(&mut ['I' as u8]).to_owned().as_str(); // char to &str
 
     let hello = "Здравствуйте";
     let s = &hello[0..4];
